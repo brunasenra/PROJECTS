@@ -25,16 +25,21 @@ while valid_quant == False:
 
               
 while repetir < quant:
-    produto = input('escreva o nome do produto: ')
+    produto = input('Escreva o nome do produto: ')
     produtos.append(produto)
 
     while valid_valor == False:
-        valor = input('escreva o valor do produto: R$ ')
+        valor = input('Escreva o valor do produto: R$ ')
         try:
             valor = float(valor)
             valid_valor = True
+            if pre <= 0 :
+                print('O valor deve ser maior que do que zero')
+            else:
+                    valid_pre= True
+                    
         except:
-            print("Formato de valor inválido. Use apenas números e ponto.")
+            print("Formato de valor inválido. Use apenas números e decimais separados por ponto.")
         valores.append(valor)
         
     total += valor
