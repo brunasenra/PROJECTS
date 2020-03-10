@@ -1,0 +1,61 @@
+##for tem funcionamento para sequências(streings, listas, tuplas e dicionários)
+##tbm termina como os condicionais com ':'
+
+##for loop com range
+
+for i in range(0,10):
+    print(10-i)
+
+
+
+####for loop aninhado
+
+compras=[['arroz1','feijão','macarrão','carne'],['Carne','Frango','Peixe'],['leite','iogurte']]
+
+for i in compras:
+    for item in i:
+        print(item)
+##Para mostrar cada elemento da lista separadamente        
+        
+         
+
+
+####for loop com dicionários
+
+cores ={'verde': 'greeen','preto':'black', 'azul': 'blue'}
+
+for i in cores:
+    print (i,':',cores[i])
+    
+
+
+
+##Somatório com for loop
+
+vendas=[1000,450,300,920,600]
+total=0
+
+for p  in vendas:
+    total += p
+    print(total)
+
+
+
+## loop for com listas e strings
+compras =['arroz','feijão','macarrão','carne']
+nome='joaquim'
+for i in nome:
+    print(i)
+
+
+x=0
+nome=[]
+
+while x<4:
+    nome=input('Qual o seu nome? ')
+    ##evitar que o nome joão seja add a lista
+    if nome =='joao'
+        break
+    pessoas.appende(nome)
+    x+=1
+    print (pessoas) 
