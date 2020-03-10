@@ -208,6 +208,9 @@ print('Data:',data_atual)
 print('Média da turma: ',round(total/alunos,2))
 print('\n',df)
 
+## Exportar a planilha para um documento do Excel:
+df.to_excel('Diário_Escolar.xlsx',sheet_name = 'Sheet1')
+
 print('fim do programa')
 
 input('Aperte ENTER para sair')
