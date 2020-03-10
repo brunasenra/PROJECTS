@@ -206,8 +206,7 @@ print('Turma:',turma)
 print('Nº de alunos:',alunos)
 print('Data:',data_atual)
 print('Média da turma: ',round(total/alunos,2))
-print(' ')
-print(df)
+print('\n',df)
 
 print('fim do programa')
 
