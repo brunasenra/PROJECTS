@@ -21,6 +21,7 @@ Notes of all evaluations;
 Number of student absences.
 
 The program will output:
+
 Table with all the information and results of each student in the class;
 Excel spreadsheet with information obtained and calculated;
 Graphs and histograms with class performance analysis.</p>
